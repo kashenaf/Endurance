@@ -9,6 +9,6 @@ import org.testng.annotations.Test;
 public class Home extends Base{
    @Test
    public void navigateTabs(){
-      driver.findElement(By.cssSelector("#search-button")).click();
+       driver.findElement(By.cssSelector("#search-button")).click();
    }
 }
