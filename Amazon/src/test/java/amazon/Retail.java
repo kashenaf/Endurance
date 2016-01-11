@@ -9,7 +9,10 @@ import CommonApi.Base;
  */
 public class Retail extends Base {
    @Test
-   public void home(){
+   public void home() {
       typeByCss("#twotabsearchtextbox", "Dominique o'Brien");
    }
+
+   @Test
+   public void numberOfTest() {typeByCss("#twotabsearchtextbox","Jenkins vs Hudson");   }
 }

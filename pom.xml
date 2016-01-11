@@ -38,6 +38,44 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <profiles>
+        <profile>
+            <id>all</id>
+            <modules>
+                <module>Generic</module>
+                <module>Cnn</module>
+                <module>Amazon</module>
+                <module>Ebay</module>
+            </modules>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+        <profile>
+            <id>CnnApp</id>
+            <modules>
+                <module>Generic</module>
+                <module>Cnn</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>AmazonApp</id>
+            <modules>
+                <module>Generic</module>
+                <module>Amazon</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>EbayApp</id>
+            <modules>
+                <module>Generic</module>
+                <module>Ebay</module>
+            </modules>
+        </profile>
+    </profiles>
 
 
 </project>

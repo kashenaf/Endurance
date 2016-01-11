@@ -19,10 +19,9 @@ public class Search extends Base{
    @Test
    public void searchItems() throws IOException{
       String [][] itemLocator = dr.fileReader(path);
+      for(int i=1;i<itemLocator.length;i++){
+         typeByCssThenEnter(itemLocator[i][0], itemLocator[i][1]);
 
-      typeByCssThenEnter(itemLocator[1][0], itemLocator[1][1]);
-      typeByCssThenEnter(itemLocator[2][0], itemLocator[2][1]);
-      typeByCssThenEnter(itemLocator[3][0], itemLocator[3][1]);
-      typeByCssThenEnter(itemLocator[4][0], itemLocator[4][1]);
+      }
    }
 }
