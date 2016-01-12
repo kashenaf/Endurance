@@ -59,22 +59,6 @@
                 <module>Cnn</module>
             </modules>
         </profile>
-
-        <profile>
-            <id>AmazonApp</id>
-            <modules>
-                <module>Generic</module>
-                <module>Amazon</module>
-            </modules>
-        </profile>
-
-        <profile>
-            <id>EbayApp</id>
-            <modules>
-                <module>Generic</module>
-                <module>Ebay</module>
-            </modules>
-        </profile>
     </profiles>
 
 
